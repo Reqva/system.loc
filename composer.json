@@ -1,0 +1,17 @@
+{
+    "name": "leonov/system.loc",
+    "authors": [
+        {
+            "name": "Konstantiin Leonov",
+            "email": "leonov@leonov.leo"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Engine\\DI\\": "engine/DI",
+            "System\\": "system"
+        }
+    }
+}

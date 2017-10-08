@@ -1,0 +1,52 @@
+.menu-task {
+    background-color: #22c8f8;
+}
+
+.task .id,
+.task .status {
+    width: 80px;
+}
+
+.task .status {
+    padding-top: 13px;
+}
+
+.task .status span{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 1px;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.task .new span{
+    background-color: #00FFFF;
+}
+
+.task .working span {
+    background-color: #CC6600;
+}
+
+.task .done span {
+    background-color: #FF3333;
+}
+
+.task .name {
+    padding-top: 12px;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task .description {
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project-pointer {
+    font-size: 16px;
+}
